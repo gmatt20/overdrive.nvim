@@ -2,5 +2,4 @@
 
 ## The ultimate and minimalistic Neovim setup using LazyVim 💤
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+If you are looking for a **matte black electric guitar vibe** for your IDE — something sleek, aggressive, and tuned for performance — this is it.
