@@ -10,8 +10,7 @@ return {
       lackluster.setup({
         disable_plugin = {
           bufferline = true,
-          git_gutter = true,
-          gitsigns = true,
+          git_signs = true,
         },
         tweak_highlight = {
           Cursor = {
@@ -47,8 +46,29 @@ return {
           keyword = color.blue,
         },
       })
+      vim.api.nvim_create_autocmd("ColorScheme", {
+        pattern = "lackluster",
+        callback = function()
+          local groups = {
+            GitSignsAdd = { fg = color.green },
+            GitSignsChange = { fg = color.yellow },
+            GitSignsDelete = { fg = color.red },
 
-      vim.cmd.colorscheme("lackluster-hack")
+            SnacksPickerGitStatusAdded = { fg = color.green },
+            SnacksPickerGitStatusModified = { fg = color.yellow },
+            SnacksPickerGitStatusDeleted = { fg = color.red },
+            SnacksPickerGitStatusIgnored = { fg = color.gray5 },
+            SnacksPickerGitStatusUntracked = { fg = color.green },
+            SnacksPickerGitStatusRenamed = { fg = color.blue },
+            SnacksPickerGitStatusStaged = { fg = color.green },
+          }
+
+          for group, opts in pairs(groups) do
+            vim.api.nvim_set_hl(0, group, opts)
+          end
+        end,
+      })
+      vim.cmd.colorscheme("lackluster")
     end,
   },
   {
