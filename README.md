@@ -18,6 +18,8 @@ Looking for a **matte black electric guitar vibe** for your IDE? Meet OVERDRIVE.
    (Recommended before installing. Based on LazyVim's instructions.)
 
    ```bash
+   # Linux / MacOS (unix)
+
    # Required
    mv ~/.config/nvim{,.bak}
 
@@ -44,6 +46,7 @@ Looking for a **matte black electric guitar vibe** for your IDE? Meet OVERDRIVE.
 5. Delete the .git folder (optional)
 
 ```bash
+# Linux / MacOS (unix)
 rm -rf ~/.config/nvim/.git
 ```
 
