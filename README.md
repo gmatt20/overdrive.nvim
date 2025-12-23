@@ -41,7 +41,7 @@ Looking for a **matte black electric guitar vibe** for your IDE? Meet OVERDRIVE.
    nvim
    ```
 
-4. Run `:MasonInstallAll` and `:Lazy sync`
+4. Run `:Lazy sync`
 
 5. Delete the .git folder (optional)
 
