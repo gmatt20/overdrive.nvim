@@ -2,6 +2,12 @@
 
 Looking for a **matte black electric guitar vibe** for your IDE? Meet OVERDRIVE.nvim — a sleek, aggressive, and performance-tuned Neovim setup that looks as good as it feels.
 
+<img width="1000" height="869" alt="dashboard" src="https://github.com/user-attachments/assets/914934b1-d725-45b0-a7b2-c280d11db049" />
+
+---
+
+<img width="1000" height="849" alt="demo" src="https://github.com/user-attachments/assets/a6597554-6084-4382-86b1-a862fdd8fabf" />
+
 ## ⚡ Features
 
 - **Custom Theme:** Handcrafted `lackluster.nvim` for a unique look
