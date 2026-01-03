@@ -29,6 +29,7 @@ return {
           header = vim.split(logo, "\n"),
         -- stylua: ignore
         center = {
+          { action = 'lua require("snacks").picker.explorer()',        desc = " Explorer",        icon = "➤ ", key = "e"},
           { action = 'lua LazyVim.pick()()',                           desc = " Find File",       icon = " ", key = "f" },
           { action = 'lua LazyVim.pick("oldfiles")()',                 desc = " Recent Files",    icon = " ", key = "r" },
           { action = 'lua LazyVim.pick("live_grep")()',                desc = " Find Text",       icon = " ", key = "g" },
