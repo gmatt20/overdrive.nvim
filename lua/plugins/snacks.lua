@@ -8,6 +8,8 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
+          focus = "list",
+          layout = { preset = "sidebar", preview = false },
         },
       },
     },
